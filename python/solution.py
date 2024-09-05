@@ -76,7 +76,7 @@ def English_to_Braille(input):
     return braille_output
 
 
-# Parses input passed in terminal
+# Parses input passed in CLI
 if len(sys.argv) > 1:
     input = sys.argv[1:]
     input = " ".join(input)
